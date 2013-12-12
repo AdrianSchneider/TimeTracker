@@ -1,0 +1,14 @@
+{
+    "require": {
+        "php": ">=5.3.2",
+        "phpunit/phpunit": "3.7.*",
+        "behat/behat": "2.4.*@stable"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-0": {"TimeTracker\\": "src/"}
+    },
+    "minimum-stability": "dev"
+}
