@@ -2,6 +2,8 @@
 
 namespace TimeTracker\Domain\Recording\Request;
 
+use TimeTracker\Domain\Recording\Project;
+
 class LogEntry
 {
     protected $project;
@@ -13,5 +15,21 @@ class LogEntry
         $this->project = $project;
         $this->start = $start;
         $this->end = $end;
+    }
+
+
+    public function getProject()
+    {
+        return $this->project;
+    }
+
+    public function getStart()
+    {
+        return $this->start;
+    }
+
+    public function getEnd()
+    {
+        return $this->end;
     }
 }

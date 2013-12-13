@@ -12,4 +12,9 @@ class Project
         $this->id = $id;
         $this->name = $name;
     }
+
+    public function getId()
+    {
+        return $this->id;
+    }
 }

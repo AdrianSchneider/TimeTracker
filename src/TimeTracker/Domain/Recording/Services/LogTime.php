@@ -2,6 +2,7 @@
 
 namespace TimeTracker\Domain\Recording\Services;
 
+use TimeTracker\Domain\Recording\Request\LogEntry;
 use TimeTracker\Domain\Recording\TimeRepository;
 
 class LogTime
