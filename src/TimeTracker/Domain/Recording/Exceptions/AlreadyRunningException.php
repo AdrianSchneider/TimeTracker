@@ -1,6 +1,6 @@
 <?php
 
-namespace TimeTracker\Domain\Recording;
+namespace TimeTracker\Domain\Recording\Exceptions;
 
 class AlreadyRunningException extends \DomainException
 {

@@ -3,8 +3,8 @@
 namespace TimeTracker\Domain\Recording\Services;
 
 use TimeTracker\Domain\Recording\Project;
-use TimeTracker\Domain\Recording\AlreadyRunningException;
 use TimeTracker\Domain\Recording\TimeRepository;
+use TimeTracker\Domain\Recording\Exceptions\AlreadyRunningException;
 
 class StartWork
 {

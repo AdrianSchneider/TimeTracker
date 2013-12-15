@@ -44,7 +44,7 @@ class StartWorkTest extends \PHPUnit_Framework_TestCase
             ->will($this->returnValue(new \DateTime))
         ;
 
-        $this->setExpectedException('TimeTracker\Domain\Recording\AlreadyRunningException');
+        $this->setExpectedException('TimeTracker\Domain\Recording\Exceptions\AlreadyRunningException');
 
         $service = new StartWork($repository);
         $service($project);
