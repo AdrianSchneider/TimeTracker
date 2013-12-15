@@ -2,3 +2,5 @@
 /vendor
 /coverage
 /bin
+
+.DS_Store
